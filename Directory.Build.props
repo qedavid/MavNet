@@ -21,14 +21,14 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Authors>UltimateSeeSharp</Authors>
-    <Company>UltimateSeeSharp</Company>
+    <Authors>qedavid</Authors>
+    <Company>qedavid</Company>
     <Product>MavNet</Product>
-    <Copyright>Copyright (c) UltimateSeeSharp</Copyright>
+    <Copyright>Copyright (c) qedavid</Copyright>
     <Version>0.1.0</Version>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/UltimateSeeSharp/MavNet</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/UltimateSeeSharp/MavNet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/qedavid/MavNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/qedavid/MavNet</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>mavlink;drone;uav;px4;ardupilot</PackageTags>
     <IncludeSymbols>true</IncludeSymbols>

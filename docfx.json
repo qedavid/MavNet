@@ -32,7 +32,7 @@
       "_appTitle": "MavNet - MAVLink for .NET",
       "_enableSearch": true,
       "_gitContribute": {
-        "repo": "https://github.com/UltimateSeeSharp/MavNet",
+        "repo": "https://github.com/qedavid/MavNet",
         "branch": "main",
         "path": "docs"
       }
