@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/UltimateSeeSharp/MavNet/new/main/apiSpec/new?filename=MavNet_Transport_Udp_MavlinkConnection.md&amp;value=---%0Auid%3A%20MavNet.Transport.Udp.MavlinkConnection%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/qedavid/MavNet/new/main/apiSpec/new?filename=MavNet_Transport_Udp_MavlinkConnection.md&amp;value=---%0Auid%3A%20MavNet.Transport.Udp.MavlinkConnection%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -75,7 +75,7 @@
 
 
   <h1 id="MavNet_Transport_Udp_MavlinkConnection" data-uid="MavNet.Transport.Udp.MavlinkConnection" class="text-break">
-Class MavlinkConnection  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L30"><i class="bi bi-code-slash"></i></a>
+Class MavlinkConnection  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -157,7 +157,7 @@ multiple times. Disposing closes the socket and stops the receive loop.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection__ctor_System_Net_IPEndPoint_System_Net_IPEndPoint_System_Byte_System_Byte_System_Int32_Microsoft_Extensions_Logging_ILogger_MavNet_Transport_Udp_MavlinkConnection__" data-uid="MavNet.Transport.Udp.MavlinkConnection.#ctor(System.Net.IPEndPoint,System.Net.IPEndPoint,System.Byte,System.Byte,System.Int32,Microsoft.Extensions.Logging.ILogger{MavNet.Transport.Udp.MavlinkConnection})">
   MavlinkConnection(IPEndPoint, IPEndPoint, byte, byte, int, ILogger&lt;MavlinkConnection&gt;?)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L79"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Creates and binds the UDP socket. Call <a class="xref" href="MavNet.Transport.Udp.MavlinkConnection.html#MavNet_Transport_Udp_MavlinkConnection_Start">Start()</a> to begin receiving.</p>
@@ -203,7 +203,7 @@ multiple times. Disposing closes the socket and stops the receive loop.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_LocalEndPoint" data-uid="MavNet.Transport.Udp.MavlinkConnection.LocalEndPoint">
   LocalEndPoint
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L98"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L98"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>The local <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.ipendpoint">IPEndPoint</a> the UDP socket is bound to. When the caller
@@ -240,7 +240,7 @@ passed port 0 to the constructor, this is the OS-assigned ephemeral port.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_DisposeAsync" data-uid="MavNet.Transport.Udp.MavlinkConnection.DisposeAsync">
   DisposeAsync()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L254"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L254"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Performs application-defined tasks associated with freeing, releasing, or
@@ -274,7 +274,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_SendRaw_System_UInt32_System_Byte_System_ReadOnlySpan_System_Byte__" data-uid="MavNet.Transport.Udp.MavlinkConnection.SendRaw(System.UInt32,System.Byte,System.ReadOnlySpan{System.Byte})">
   SendRaw(uint, byte, ReadOnlySpan&lt;byte&gt;)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L123"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Send raw bytes as a MAVLink v2 frame. Use <a class="xref" href="MavNet.Transport.Udp.MavlinkConnection.html#MavNet_Transport_Udp_MavlinkConnection_Send__1___0_">Send&lt;T&gt;(T)</a> for known message types — this is the escape hatch.</p>
@@ -310,7 +310,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_Send__1___0_" data-uid="MavNet.Transport.Udp.MavlinkConnection.Send``1(``0)">
   Send&lt;T&gt;(T)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L112"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L112"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Send a generated MAVLink message. Frame is built and CRC-stamped on this thread; the actual UDP send is non-blocking.</p>
@@ -347,7 +347,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_Start" data-uid="MavNet.Transport.Udp.MavlinkConnection.Start">
   Start()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L101"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L101"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Begin reading from the socket and emitting events. Idempotent within one instance — throws if called twice.</p>
@@ -377,7 +377,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_CommandAckReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.CommandAckReceived">
   CommandAckReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L48"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L48"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound COMMAND_ACK.</p>
@@ -408,7 +408,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_ExtendedSysStateReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.ExtendedSysStateReceived">
   ExtendedSysStateReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L58"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L58"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound EXTENDED_SYS_STATE.</p>
@@ -439,7 +439,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_GlobalPositionIntReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.GlobalPositionIntReceived">
   GlobalPositionIntReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L50"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L50"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound GLOBAL_POSITION_INT.</p>
@@ -470,7 +470,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_GpsRawIntReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.GpsRawIntReceived">
   GpsRawIntReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L54"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L54"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound GPS_RAW_INT.</p>
@@ -501,7 +501,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_HeartbeatReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.HeartbeatReceived">
   HeartbeatReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L46"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L46"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound HEARTBEAT. Args: sender, decoded message, receive timestamp.</p>
@@ -532,7 +532,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_MissionAckReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.MissionAckReceived">
   MissionAckReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L68"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound MISSION_ACK.</p>
@@ -563,7 +563,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_MissionClearAllReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.MissionClearAllReceived">
   MissionClearAllReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L64"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L64"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound MISSION_CLEAR_ALL.</p>
@@ -594,7 +594,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_MissionCountReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.MissionCountReceived">
   MissionCountReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L62"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound MISSION_COUNT.</p>
@@ -625,7 +625,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_MissionCurrentReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.MissionCurrentReceived">
   MissionCurrentReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L70"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound MISSION_CURRENT.</p>
@@ -656,7 +656,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_MissionItemIntReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.MissionItemIntReceived">
   MissionItemIntReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L76"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound MISSION_ITEM_INT.</p>
@@ -687,7 +687,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_MissionItemReachedReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.MissionItemReachedReceived">
   MissionItemReachedReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound MISSION_ITEM_REACHED.</p>
@@ -718,7 +718,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_MissionRequestIntReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.MissionRequestIntReceived">
   MissionRequestIntReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L74"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound MISSION_REQUEST_INT.</p>
@@ -749,7 +749,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_MissionRequestListReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.MissionRequestListReceived">
   MissionRequestListReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L60"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L60"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound MISSION_REQUEST_LIST.</p>
@@ -780,7 +780,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_MissionRequestReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.MissionRequestReceived">
   MissionRequestReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L72"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound MISSION_REQUEST. Deprecated by the MAVLink spec, but ArduPilot still sends it — respond with a MISSION_ITEM_INT.</p>
@@ -811,7 +811,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_SysStatusReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.SysStatusReceived">
   SysStatusReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L56"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L56"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound SYS_STATUS.</p>
@@ -842,7 +842,7 @@ resetting unmanaged resources asynchronously.</p>
 
   <h3 id="MavNet_Transport_Udp_MavlinkConnection_VfrHudReceived" data-uid="MavNet.Transport.Udp.MavlinkConnection.VfrHudReceived">
   VfrHudReceived
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L52"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Fires for every inbound VFR_HUD.</p>
@@ -874,7 +874,7 @@ resetting unmanaged resources asynchronously.</p>
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L30" class="edit-link">Edit this page</a>
+          <a href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Transport.Udp/MavlinkConnection.cs/#L30" class="edit-link">Edit this page</a>
         </div>
 
 

@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/UltimateSeeSharp/MavNet/new/main/apiSpec/new?filename=MavNet_Protocol_MessageInfo.md&amp;value=---%0Auid%3A%20MavNet.Protocol.MessageInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/qedavid/MavNet/new/main/apiSpec/new?filename=MavNet_Protocol_MessageInfo.md&amp;value=---%0Auid%3A%20MavNet.Protocol.MessageInfo%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -75,7 +75,7 @@
 
 
   <h1 id="MavNet_Protocol_MessageInfo" data-uid="MavNet.Protocol.MessageInfo" class="text-break">
-Struct MessageInfo  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L16"><i class="bi bi-code-slash"></i></a>
+Struct MessageInfo  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -141,7 +141,7 @@ by encoders for truncation, and by inspection/replay tooling.</p>
 
   <h3 id="MavNet_Protocol_MessageInfo__ctor_System_UInt32_System_Byte_System_Byte_System_Byte_System_String_MavNet_Protocol_MessageCapabilities_" data-uid="MavNet.Protocol.MessageInfo.#ctor(System.UInt32,System.Byte,System.Byte,System.Byte,System.String,MavNet.Protocol.MessageCapabilities)">
   MessageInfo(uint, byte, byte, byte, string, MessageCapabilities)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Per-message metadata required by the MAVLink wire protocol. Returned from
@@ -197,7 +197,7 @@ this length before deserialising. Wire payload longer than this is malformed.</p
 
   <h3 id="MavNet_Protocol_MessageInfo_CrcExtra" data-uid="MavNet.Protocol.MessageInfo.CrcExtra">
   CrcExtra
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L18"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Per-message seed mixed into the frame CRC. Required to validate inbound CRCs.</p>
@@ -229,7 +229,7 @@ this length before deserialising. Wire payload longer than this is malformed.</p
 
   <h3 id="MavNet_Protocol_MessageInfo_Flags" data-uid="MavNet.Protocol.MessageInfo.Flags">
   Flags
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Capability hints derived from the spec (HasExtensions, etc.).</p>
@@ -261,7 +261,7 @@ this length before deserialising. Wire payload longer than this is malformed.</p
 
   <h3 id="MavNet_Protocol_MessageInfo_MaxPayloadLength" data-uid="MavNet.Protocol.MessageInfo.MaxPayloadLength">
   MaxPayloadLength
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L20"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Untruncated payload length. Decoders zero-fill received payloads up to
@@ -294,7 +294,7 @@ this length before deserialising. Wire payload longer than this is malformed.</p
 
   <h3 id="MavNet_Protocol_MessageInfo_MinPayloadLength" data-uid="MavNet.Protocol.MessageInfo.MinPayloadLength">
   MinPayloadLength
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L19"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L19"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Truncation floor — MAVLink v2 senders may strip trailing zero bytes of
@@ -327,7 +327,7 @@ extension fields down to this length. Wire payload shorter than this is malforme
 
   <h3 id="MavNet_Protocol_MessageInfo_MsgId" data-uid="MavNet.Protocol.MessageInfo.MsgId">
   MsgId
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>24-bit MAVLink message id (0..16,777,215).</p>
@@ -359,7 +359,7 @@ extension fields down to this length. Wire payload shorter than this is malforme
 
   <h3 id="MavNet_Protocol_MessageInfo_Name" data-uid="MavNet.Protocol.MessageInfo.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L21"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>SHOUTY_SNAKE_CASE message name from the dialect XML (e.g. &quot;HEARTBEAT&quot;).</p>
@@ -395,7 +395,7 @@ extension fields down to this length. Wire payload shorter than this is malforme
 
   <h3 id="MavNet_Protocol_MessageInfo_IsValidPayloadLength_System_Int32_" data-uid="MavNet.Protocol.MessageInfo.IsValidPayloadLength(System.Int32)">
   IsValidPayloadLength(int)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L25"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Wire-length range check. Used by the parser before CRC validation.</p>
@@ -432,7 +432,7 @@ extension fields down to this length. Wire payload shorter than this is malforme
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/UltimateSeeSharp/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L16" class="edit-link">Edit this page</a>
+          <a href="https://github.com/qedavid/MavNet/blob/main/src/MavNet.Protocol/MessageInfo.cs/#L16" class="edit-link">Edit this page</a>
         </div>
 
 
